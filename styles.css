@@ -98,3 +98,9 @@ h2 {
     text-decoration: underline;
 }
 
+.error {
+    color: red;
+    font-size: 0.875rem;
+    display: none;
+}
+
