@@ -28,7 +28,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     // Si el formulario es válido, puedes enviarlo o realizar la acción que necesites
     if (isValid && username === 'admin' && password === 'mimamamemima') {
-        alert('Formulario enviado correctamente');
         this.submit();
     }else{
         alert('Usuario o contraseña incorrectos');
